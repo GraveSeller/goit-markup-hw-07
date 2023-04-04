@@ -466,7 +466,7 @@ body {
   gap: 24px;
 }
 
-/* ------------------------- Team -------------------------------- */
+/* Team  */
 
 .team-section {
   background-color: #f4f4fd;
@@ -561,7 +561,7 @@ body {
   background-color: #404bbf;
 }
 
-/* ------------------- Customers -------------------- */
+/* Customers  */
 
 .customer-title {
   margin-bottom: 72px;
@@ -611,7 +611,7 @@ body {
   fill: currentColor;
 }
 
-/* ----------------- Footer ---------------------- */
+/*  Footer  */
 .footer {
   display: flex;
   align-items: center;
@@ -785,7 +785,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* -------------------Backdrop-------------------- */
+/* Backdrop */
 
 .backdrop {
   position: fixed;
@@ -794,8 +794,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 350ms linear, visibility 350ms linear,
-    transform 350ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .backdrop.is-hidden {
@@ -805,7 +804,7 @@ body {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%);
 }
 
 .modal {
@@ -814,7 +813,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%);
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
