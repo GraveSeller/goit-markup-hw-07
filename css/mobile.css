@@ -1,0 +1,37 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+
+  .work-section {
+    display: none;
+  }
+
+  .customer-item {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
+
+  .filter-container {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-nav {
+    display: none;
+  }
+
+  .auth-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 468px), (max-width: 767px) {
+  .team-container {
+    max-width: 264px;
+  }
+}
